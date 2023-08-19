@@ -40,7 +40,11 @@
     {"id":{"name":"ControlButton","path":"objects/ControlButton/ControlButton.yy",},},
     {"id":{"name":"snd_switch_click","path":"sounds/snd_switch_click/snd_switch_click.yy",},},
     {"id":{"name":"switch_off","path":"sprites/switch_off/switch_off.yy",},},
+    {"id":{"name":"SliderKnobSprite","path":"sprites/SliderKnobSprite/SliderKnobSprite.yy",},},
+    {"id":{"name":"SliderPlateSprite","path":"sprites/SliderPlateSprite/SliderPlateSprite.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"obj_slider_plate","path":"objects/obj_slider_plate/obj_slider_plate.yy",},},
+    {"id":{"name":"obj_slider_knob","path":"objects/obj_slider_knob/obj_slider_knob.yy",},},
     {"id":{"name":"ControlPanel","path":"rooms/ControlPanel/ControlPanel.yy",},},
   ],
   "RoomOrderNodes": [
