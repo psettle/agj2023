@@ -6,6 +6,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":13,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":3,"eventType":13,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":13,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -32,8 +33,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "SliderKnobSprite",
-    "path": "sprites/SliderKnobSprite/SliderKnobSprite.yy",
+    "name": "spr_slider_knob",
+    "path": "sprites/spr_slider_knob/spr_slider_knob.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SliderPlateSprite",
-    "path": "sprites/SliderPlateSprite/SliderPlateSprite.yy",
+    "name": "spr_plate_knob",
+    "path": "sprites/spr_plate_knob/spr_plate_knob.yy",
   },
   "spriteMaskId": null,
   "visible": true,
