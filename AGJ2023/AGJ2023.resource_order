@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Number_Pad","order":2,"path":"objects/Number_Pad/Number_Pad.yy",},
     {"name":"Switch","order":1,"path":"objects/Switch/Switch.yy",},
     {"name":"switch_on","order":2,"path":"sprites/switch_on/switch_on.yy",},
     {"name":"switch_off","order":3,"path":"sprites/switch_off/switch_off.yy",},

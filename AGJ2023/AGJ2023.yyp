@@ -34,6 +34,7 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
+    {"id":{"name":"Number_Pad","path":"objects/Number_Pad/Number_Pad.yy",},},
     {"id":{"name":"Switch","path":"objects/Switch/Switch.yy",},},
     {"id":{"name":"switch_on","path":"sprites/switch_on/switch_on.yy",},},
     {"id":{"name":"ControlButton","path":"objects/ControlButton/ControlButton.yy",},},
