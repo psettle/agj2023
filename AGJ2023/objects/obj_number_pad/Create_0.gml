@@ -37,7 +37,7 @@ for (var _i = 0; _i < 10; _i += 1) {
 	var _x_offset = 0;
 	var _y_offset = 0;
 	
-	if (_i ==0) {
+	if (_i == 0) {
 		// Exception: 0 goes in bottom-most row in middle  col
 		var _temp_row = 3;
 		var _temp_col = 1;
@@ -47,6 +47,7 @@ for (var _i = 0; _i < 10; _i += 1) {
 		// Draw from left to right, top to bottom
 		_x_offset = image_xscale * ((_border_width_px * (_curr_col + 1)) + (_button_width_px * _curr_col));
 		_y_offset = image_yscale * (_top_margin_px + (_border_width_px * _curr_row) + (_button_height_px * _curr_row));
+		show_debug_message([_i, " BUTTON (X, Y) OFFSET:", _x_offset, _y_offset]); // TODO: delete
 	
 		_curr_col = _curr_col + 1;
 		// Go to next row once you've reached 3 buttons in a row
@@ -71,6 +72,8 @@ for (var _i = 0; _i < 10; _i += 1) {
 // Draw on lights
 var _red_x_offset = image_xscale * _border_width_px;
 var _red_y_offset = image_yscale * (_top_margin_px + (_border_width_px * 3) + (_button_height_px * 3));
+show_debug_message(["RED LIGHT (X, Y) OFFSET:", _red_x_offset, _red_y_offset]); // TODO: delete
+
 
 red_button = instance_create_layer(x + _red_x_offset, y + _red_y_offset, "Instances", obj_number_pad_light, 
 {
