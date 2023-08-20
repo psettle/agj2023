@@ -8,3 +8,4 @@
 //	{image_index = 0} //gray
 
 image_index = light_colour
+draw_self();
