@@ -37,6 +37,7 @@
   "resources": [
     {"id":{"name":"obj_poloroid_memory","path":"objects/obj_poloroid_memory/obj_poloroid_memory.yy",},},
     {"id":{"name":"snd_button","path":"sounds/snd_button/snd_button.yy",},},
+    {"id":{"name":"obj_credits_button","path":"objects/obj_credits_button/obj_credits_button.yy",},},
     {"id":{"name":"obj_success_lights","path":"objects/obj_success_lights/obj_success_lights.yy",},},
     {"id":{"name":"spr_warning_note_icon","path":"sprites/spr_warning_note_icon/spr_warning_note_icon.yy",},},
     {"id":{"name":"obj_icon_frame","path":"objects/obj_icon_frame/obj_icon_frame.yy",},},
@@ -63,8 +64,10 @@
     {"id":{"name":"obj_number_pad_button","path":"objects/obj_number_pad_button/obj_number_pad_button.yy",},},
     {"id":{"name":"spr_blank","path":"sprites/spr_blank/spr_blank.yy",},},
     {"id":{"name":"spr_eight","path":"sprites/spr_eight/spr_eight.yy",},},
+    {"id":{"name":"obj_go_back_button","path":"objects/obj_go_back_button/obj_go_back_button.yy",},},
     {"id":{"name":"spr_numbers","path":"sprites/spr_numbers/spr_numbers.yy",},},
     {"id":{"name":"snd_switch_click","path":"sounds/snd_switch_click/snd_switch_click.yy",},},
+    {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"id":{"name":"obj_state_select","path":"objects/obj_state_select/obj_state_select.yy",},},
     {"id":{"name":"spr_paw","path":"sprites/spr_paw/spr_paw.yy",},},
     {"id":{"name":"snd_sad_piano","path":"sounds/snd_sad_piano/snd_sad_piano.yy",},},
@@ -74,6 +77,7 @@
     {"id":{"name":"spr_one","path":"sprites/spr_one/spr_one.yy",},},
     {"id":{"name":"spr_seven","path":"sprites/spr_seven/spr_seven.yy",},},
     {"id":{"name":"spr_switch_off","path":"sprites/spr_switch_off/spr_switch_off.yy",},},
+    {"id":{"name":"spr_green_rectangle","path":"sprites/spr_green_rectangle/spr_green_rectangle.yy",},},
     {"id":{"name":"spr_five","path":"sprites/spr_five/spr_five.yy",},},
     {"id":{"name":"obj_number_pad_light","path":"objects/obj_number_pad_light/obj_number_pad_light.yy",},},
     {"id":{"name":"spr_button_open","path":"sprites/spr_button_open/spr_button_open.yy",},},
@@ -111,8 +115,9 @@
     {"id":{"name":"ControlPanel","path":"rooms/ControlPanel/ControlPanel.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"ControlPanel","path":"rooms/ControlPanel/ControlPanel.yy",},},
     {"roomId":{"name":"EndScreen","path":"rooms/EndScreen/EndScreen.yy",},},
+    {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
+    {"roomId":{"name":"ControlPanel","path":"rooms/ControlPanel/ControlPanel.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
