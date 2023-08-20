@@ -9,5 +9,6 @@ knob.x =  x + 48 - 16 * image_yscale;
 knob.min_x = knob.x
 knob.max_x = bbox_right - 48 + 16 * image_yscale - (knob.bbox_right - knob.bbox_left);
 knob_value = 0
-show_label = true;
+show_label = false;
 label = "Placeholder"
+disabled = true;

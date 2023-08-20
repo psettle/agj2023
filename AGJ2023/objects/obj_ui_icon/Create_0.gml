@@ -13,9 +13,11 @@ on_click = function() {
 	expanded_instance.depth = depth - 2;
 	expanded_instance.image_xscale = expanded_x_scale
 	expanded_instance.image_yscale = expanded_y_scale
+		inst_conductor.disable_all();
 	} else {
 		instance_destroy(expanded_instance)
 		expanded_instance = pointer_null;
+		inst_conductor.enable_phase();
 	}
 }
 
@@ -24,3 +26,4 @@ is_expanded = function() {
 }
 
 visible = false;
+disabled = true;

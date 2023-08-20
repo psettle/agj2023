@@ -46,6 +46,7 @@
     {"id":{"name":"spr_zero","path":"sprites/spr_zero/spr_zero.yy",},},
     {"id":{"name":"spr_green","path":"sprites/spr_green/spr_green.yy",},},
     {"id":{"name":"spr_base","path":"sprites/spr_base/spr_base.yy",},},
+    {"id":{"name":"obj_conductor","path":"objects/obj_conductor/obj_conductor.yy",},},
     {"id":{"name":"obj_number_pad","path":"objects/obj_number_pad/obj_number_pad.yy",},},
     {"id":{"name":"spr_six","path":"sprites/spr_six/spr_six.yy",},},
     {"id":{"name":"obj_switch","path":"objects/obj_switch/obj_switch.yy",},},
