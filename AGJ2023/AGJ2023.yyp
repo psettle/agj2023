@@ -115,9 +115,9 @@
     {"id":{"name":"ControlPanel","path":"rooms/ControlPanel/ControlPanel.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"ControlPanel","path":"rooms/ControlPanel/ControlPanel.yy",},},
     {"roomId":{"name":"EndScreen","path":"rooms/EndScreen/EndScreen.yy",},},
     {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
-    {"roomId":{"name":"ControlPanel","path":"rooms/ControlPanel/ControlPanel.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
