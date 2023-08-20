@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_plate_knob",
-  "bbox_bottom": 127,
+  "bbox_bottom": 207,
   "bbox_left": 0,
   "bbox_right": 767,
-  "bbox_top": 0,
+  "bbox_top": 48,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"35cbeb4e-23bd-4341-a46c-7c62e5417504",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"99f04a09-3646-448f-99e1-dd6722c4a2c3",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 128,
+  "height": 256,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2c06f9c0-c9df-4997-abe0-8441f25aa32e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"99f144e1-9a67-4527-9325-e769eed13d9d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"35cbeb4e-23bd-4341-a46c-7c62e5417504","path":"sprites/spr_plate_knob/spr_plate_knob.yy",},},},"Disabled":false,"id":"a4a90333-28b0-44ad-b3bb-f048272d1bf4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"99f04a09-3646-448f-99e1-dd6722c4a2c3","path":"sprites/spr_plate_knob/spr_plate_knob.yy",},},},"Disabled":false,"id":"96fd00ed-2f77-4de7-8cf3-8e59c538ec04","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
