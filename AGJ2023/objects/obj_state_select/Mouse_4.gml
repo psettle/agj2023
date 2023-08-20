@@ -6,6 +6,7 @@ if !disabled {
 	state += 1;
 	state %= image_number;
 	image_index = state
+	inst_conductor.on_update();
 }
 
 

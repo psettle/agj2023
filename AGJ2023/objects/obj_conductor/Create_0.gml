@@ -23,6 +23,7 @@ function reset() {
 }
 
 function enable_phase_1() {
+	disable_all();
 	inst_dial_lb1.disabled = false;
 	inst_dial_lb2.disabled = false;
 	inst_dial_lb3.disabled = false;
@@ -45,6 +46,7 @@ function enable_phase_1() {
 }
 
 function enable_phase_2() {
+	disable_all();
 	inst_slider_feeder_scale.disabled = false;
 	inst_slider_feeder_freq.disabled = false;
 	inst_level_painkiller.disabled = false;
@@ -61,6 +63,7 @@ function enable_phase_2() {
 }
 
 function enable_phase_3() {
+	disable_all();
 	inst_numpad_year.disabled = false;
 	
 	inst_numpad_year.show_label = true;
@@ -73,6 +76,7 @@ function enable_phase_3() {
 }
 
 function enable_phase_4() {
+	disable_all();
 	inst_launch_button.disabled = false;
 	
 	inst_launch_button.show_label = true;
@@ -90,29 +94,51 @@ switch (current_phase) {
 }
 }
 
-function on_slider_update(_slider) {
-
+function is_phase_1_complete() {
+	return inst_ty1.is_switch_on && !inst_ty2.is_switch_on && inst_ty3.is_switch_on && !inst_ty4.is_switch_on &&
+		   inst_dial_lb1.state = 1 && inst_dial_lb2.state = 1 && inst_dial_lb3.state = 1 && inst_dial_lb4.state = 1;
 }
 
-function on_dial_update(_dial) {
-	
+function is_phase_2_complete() {
+	return inst_slider_feeder_scale.knob_value > 0.6 &&
+	       inst_slider_feeder_freq.knob_value < 0.8 &&
+		   inst_slider_feeder_freq.knob_value > 0.6 &&
+		   inst_slider_feeder_scale.knob_value < 0.8;
 }
 
-function on_lever_update(_lever) {
-	
+function is_phase_3_complete() {
+	return inst_numpad_year.is_correct;
+} 
+
+function on_update() {
+switch (current_phase) {
+	case 1:
+		if is_phase_1_complete() {
+			current_phase = 2;
+			enable_phase();
+		}
+		break;
+	case 2:
+		if is_phase_2_complete() {
+			current_phase = 3;
+			enable_phase();
+		}
+		break;
+	case 3:
+		if is_phase_3_complete() {
+			current_phase = 4;
+			enable_phase();
+		}
+		break;
+}
 }
 
-function on_number_input(_value) {
-	
+function on_button() {
+	if current_phase == 4 {
+		//TODO end game
+	}
 }
 
-function on_button_press() {
-	
-}
-
-function on_switch_update(_switch) {
-	
-}
 
 reset();
 inst_warning_note.disabled = false;

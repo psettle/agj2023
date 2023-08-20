@@ -1,13 +1,17 @@
 if (array_length(sequence) == 4 && !disabled) {
 	disabled = true;
-	// TODO: Check if right game stage && seq matches solution
-	// for now, it's always wrong
-	audio_play_sound(snd_numpad_wrong, 1, false);
 	var _duration_s = 1;
-	red_button.flash_light(_duration_s);
-	alarm_set(1, _duration_s * 60); // Reset number pad after
-	
-	
-	//audio_play_sound(snd_numpad_correct, 1, false);
-	//green_button.flash_light(_duration_s);
+
+	if sequence[0] == 2 && sequence[1] == 0 && sequence[2] == 2 && sequence[3] == 3 {
+		audio_play_sound(snd_numpad_correct, 1, false);
+		_duration_s = 3600;
+		green_button.flash_light(_duration_s);
+		is_correct = true;
+		inst_conductor.on_update();
+	} else {
+		audio_play_sound(snd_numpad_wrong, 1, false);
+
+		red_button.flash_light(_duration_s);
+		alarm_set(1, _duration_s * 60); // Reset number pad after
+	}
 }

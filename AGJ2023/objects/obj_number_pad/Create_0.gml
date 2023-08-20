@@ -2,6 +2,7 @@ disabled = true;
 sequence = [];
 label = "Placeholder"
 show_label = false
+is_correct = false
 
 function _add_to_sequence(_num, _arr) {
 	if (array_length(_arr) < 4) {
