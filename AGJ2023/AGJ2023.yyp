@@ -42,6 +42,7 @@
     {"id":{"name":"obj_icon_frame","path":"objects/obj_icon_frame/obj_icon_frame.yy",},},
     {"id":{"name":"obj_poloroid_icon","path":"objects/obj_poloroid_icon/obj_poloroid_icon.yy",},},
     {"id":{"name":"snd_lever","path":"sounds/snd_lever/snd_lever.yy",},},
+    {"id":{"name":"spr_blue_rectangle_button","path":"sprites/spr_blue_rectangle_button/spr_blue_rectangle_button.yy",},},
     {"id":{"name":"snd_numpad_correct","path":"sounds/snd_numpad_correct/snd_numpad_correct.yy",},},
     {"id":{"name":"spr_zero","path":"sprites/spr_zero/spr_zero.yy",},},
     {"id":{"name":"spr_green","path":"sprites/spr_green/spr_green.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"obj_switch","path":"objects/obj_switch/obj_switch.yy",},},
     {"id":{"name":"spr_switch_on","path":"sprites/spr_switch_on/spr_switch_on.yy",},},
     {"id":{"name":"spr_three","path":"sprites/spr_three/spr_three.yy",},},
+    {"id":{"name":"obj_play_again_button","path":"objects/obj_play_again_button/obj_play_again_button.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"spr_red","path":"sprites/spr_red/spr_red.yy",},},
     {"id":{"name":"spr_four","path":"sprites/spr_four/spr_four.yy",},},
@@ -98,6 +100,7 @@
     {"id":{"name":"snd_numpad_wrong","path":"sounds/snd_numpad_wrong/snd_numpad_wrong.yy",},},
     {"id":{"name":"obj_slider_knob","path":"objects/obj_slider_knob/obj_slider_knob.yy",},},
     {"id":{"name":"obj_dial","path":"objects/obj_dial/obj_dial.yy",},},
+    {"id":{"name":"EndScreen","path":"rooms/EndScreen/EndScreen.yy",},},
     {"id":{"name":"spr_lever","path":"sprites/spr_lever/spr_lever.yy",},},
     {"id":{"name":"spr_poloroid_icon","path":"sprites/spr_poloroid_icon/spr_poloroid_icon.yy",},},
     {"id":{"name":"spr_button_open_pressed","path":"sprites/spr_button_open_pressed/spr_button_open_pressed.yy",},},
@@ -109,6 +112,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"ControlPanel","path":"rooms/ControlPanel/ControlPanel.yy",},},
+    {"roomId":{"name":"EndScreen","path":"rooms/EndScreen/EndScreen.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

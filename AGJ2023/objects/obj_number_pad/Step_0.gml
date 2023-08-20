@@ -1,5 +1,8 @@
 if (array_length(sequence) == 4 && !disabled) {
 	disabled = true;
+	// TODO: Check if right game stage && seq matches solution
+	// for now, it's always wrong
+	audio_play_sound(snd_numpad_wrong, 1, false);
 	var _duration_s = 1;
 
 	if sequence[0] == 2 && sequence[1] == 0 && sequence[2] == 2 && sequence[3] == 2 {
