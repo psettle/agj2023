@@ -3,7 +3,24 @@
 current_phase = 1;
 
 function disable_all() {
-	var _val = false; //TODO change
+	var _val = true;
+	inst_slider_feeder_scale.disabled = _val;
+	inst_slider_feeder_freq.disabled = _val;
+	inst_dial_lb1.disabled = _val;
+	inst_dial_lb2.disabled = _val;
+	inst_dial_lb3.disabled = _val;
+	inst_dial_lb4.disabled = _val;
+	inst_ty1.disabled = _val;
+	inst_ty2.disabled = _val;
+	inst_ty3.disabled = _val;
+	inst_ty4.disabled = _val;
+	inst_numpad_year.disabled = _val;
+	inst_launch_button.disabled = _val;
+	inst_level_painkiller.disabled = _val;
+}
+
+function enable_all() {
+	var _val = false;
 	inst_slider_feeder_scale.disabled = _val;
 	inst_slider_feeder_freq.disabled = _val;
 	inst_dial_lb1.disabled = _val;
@@ -24,7 +41,7 @@ function reset() {
 }
 
 function enable_phase_1() {
-	disable_all();
+	enable_all();
 	inst_dial_lb1.disabled = false;
 	inst_dial_lb2.disabled = false;
 	inst_dial_lb3.disabled = false;
@@ -47,7 +64,7 @@ function enable_phase_1() {
 }
 
 function enable_phase_2() {
-	disable_all();
+	enable_all();
 	inst_slider_feeder_scale.disabled = false;
 	inst_slider_feeder_freq.disabled = false;
 	inst_level_painkiller.disabled = false;
@@ -64,7 +81,7 @@ function enable_phase_2() {
 }
 
 function enable_phase_3() {
-	disable_all();
+	enable_all();
 	inst_numpad_year.disabled = false;
 	
 	inst_numpad_year.show_label = true;
@@ -77,7 +94,7 @@ function enable_phase_3() {
 }
 
 function enable_phase_4() {
-	disable_all();
+	enable_all();
 	inst_launch_button.disabled = false;
 	
 	inst_launch_button.show_label = true;
