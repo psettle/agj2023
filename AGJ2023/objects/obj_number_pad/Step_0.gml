@@ -2,7 +2,7 @@ if (array_length(sequence) == 4 && !disabled) {
 	disabled = true;
 	var _duration_s = 1;
 
-	if sequence[0] == 2 && sequence[1] == 0 && sequence[2] == 2 && sequence[3] == 3 {
+	if sequence[0] == 2 && sequence[1] == 0 && sequence[2] == 2 && sequence[3] == 2 {
 		audio_play_sound(snd_numpad_correct, 1, false);
 		_duration_s = 3600;
 		green_button.flash_light(_duration_s);

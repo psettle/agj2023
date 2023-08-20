@@ -114,14 +114,15 @@ switch (current_phase) {
 
 function is_phase_1_complete() {
 	return inst_ty1.is_switch_on && !inst_ty2.is_switch_on && inst_ty3.is_switch_on && !inst_ty4.is_switch_on &&
-		   inst_dial_lb1.state = 1 && inst_dial_lb2.state = 1 && inst_dial_lb3.state = 1 && inst_dial_lb4.state = 1;
+		   inst_dial_lb1.state = 2 && inst_dial_lb2.state = 7 && inst_dial_lb3.state = 6 && inst_dial_lb4.state = 3;
 }
 
 function is_phase_2_complete() {
-	return inst_slider_feeder_scale.knob_value > 0.6 &&
-	       inst_slider_feeder_freq.knob_value < 0.8 &&
-		   inst_slider_feeder_freq.knob_value > 0.6 &&
-		   inst_slider_feeder_scale.knob_value < 0.8;
+	return inst_slider_feeder_scale.knob_value > 0.125 &&
+	       inst_slider_feeder_scale.knob_value < 0.375 &&
+		   inst_slider_feeder_freq.knob_value > 0.375 &&
+		   inst_slider_feeder_freq.knob_value < 0.625 &&
+		   inst_level_painkiller.state = 2;
 }
 
 function is_phase_3_complete() {
