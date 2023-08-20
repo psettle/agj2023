@@ -3,4 +3,6 @@ draw_self();
 
 draw_set_color(c_white);
 draw_set_halign(fa_center);
-draw_text(x, bbox_bottom + 18, label);
+
+var _width = bbox_right - bbox_left;
+draw_text(bbox_left + _width / 2, bbox_bottom + 12, label);
