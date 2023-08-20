@@ -15,7 +15,7 @@ function disable_all() {
 	inst_ty3.disabled = _val;
 	inst_ty4.disabled = _val;
 	inst_numpad_year.disabled = _val;
-	inst_launch_button.disabled = _val;
+	//inst_launch_button.disabled = _val;
 	inst_level_painkiller.disabled = _val;
 }
 
@@ -32,7 +32,7 @@ function enable_all() {
 	inst_ty3.disabled = _val;
 	inst_ty4.disabled = _val;
 	inst_numpad_year.disabled = _val;
-	inst_launch_button.disabled = _val;
+	//inst_launch_button.disabled = _val;
 	inst_level_painkiller.disabled = _val;
 }
 
