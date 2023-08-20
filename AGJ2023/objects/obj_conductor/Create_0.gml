@@ -157,7 +157,7 @@ switch (current_phase) {
 
 function on_button() {
 	if current_phase == 4 {
-		// End game by going to end screen
+		// Go to end screen
 		if room_next(room) != -1
 		{
 			room_goto_next();
