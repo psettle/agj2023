@@ -38,6 +38,9 @@ function enable_all() {
 
 function reset() {
 	disable_all();
+	inst_poloroid.visible = false;
+	inst_paw.visible = false;
+	current_phase = 1;
 }
 
 function enable_phase_1() {
@@ -154,7 +157,12 @@ switch (current_phase) {
 
 function on_button() {
 	if current_phase == 4 {
-		//TODO end game
+		// Go to end screen
+		if room_next(room) != -1
+		{
+			room_goto_next();
+		}
+		reset();
 	}
 }
 
