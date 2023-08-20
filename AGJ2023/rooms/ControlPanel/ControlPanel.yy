@@ -11,6 +11,8 @@
     {"name":"inst_7ACD30FE","path":"rooms/ControlPanel/ControlPanel.yy",},
     {"name":"inst_2DE79A7A","path":"rooms/ControlPanel/ControlPanel.yy",},
     {"name":"inst_2D8F704D","path":"rooms/ControlPanel/ControlPanel.yy",},
+    {"name":"inst_12F902BF","path":"rooms/ControlPanel/ControlPanel.yy",},
+    {"name":"inst_395E28DA","path":"rooms/ControlPanel/ControlPanel.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -19,6 +21,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7ACD30FE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Switch","path":"objects/Switch/Switch.yy",},"properties":[],"rotation":0.0,"scaleX":0.625,"scaleY":0.625,"x":96.0,"y":608.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DE79A7A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_slider_plate","path":"objects/obj_slider_plate/obj_slider_plate.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D8F704D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_slider_plate","path":"objects/obj_slider_plate/obj_slider_plate.yy",},"properties":[],"rotation":0.0,"scaleX":0.45833334,"scaleY":1.0,"x":32.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12F902BF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dial","path":"objects/obj_dial/obj_dial.yy",},"properties":[],"rotation":0.0,"scaleX":0.4117647,"scaleY":0.4117647,"x":768.0,"y":416.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_395E28DA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lever","path":"objects/obj_lever/obj_lever.yy",},"properties":[],"rotation":0.0,"scaleX":1.5,"scaleY":1.625,"x":384.0,"y":192.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

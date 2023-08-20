@@ -6,5 +6,5 @@ knob.y = self.y;
 knob.depth = self.depth - 1;
 knob.x += 16;
 knob_value = 0;
-show_label = false;
+show_label = true;
 label = "Placeholder"
