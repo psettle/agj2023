@@ -1,0 +1,1 @@
+curr_image_index = 0;
